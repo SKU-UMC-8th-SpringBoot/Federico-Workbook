@@ -1,2 +1,2 @@
 # Federico-Workbook
-페데리코의 워크북
+UMC_8th_SpringBoot 워크북
