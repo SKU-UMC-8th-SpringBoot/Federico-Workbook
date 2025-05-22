@@ -2,11 +2,12 @@ package week7.week7.validation.annotation;
 
 import jakarta.validation.Constraint;
 import jakarta.validation.Payload;
+import week7.week7.validation.validator.CategoryExistValidator;
 
 import java.lang.annotation.*;
 
 @Documented
-@Constraint(validatedBy = CategoriesExistValidator.class)
+@Constraint(validatedBy = CategoryExistValidator.class)
 @Target( { ElementType.METHOD, ElementType.FIELD, ElementType.PARAMETER })
 @Retention(RetentionPolicy.RUNTIME)
 public @interface ExistCategories {
