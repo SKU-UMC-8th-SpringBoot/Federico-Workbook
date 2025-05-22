@@ -22,4 +22,8 @@ public class MemberMission extends BaseEntity {
     @ManyToOne
     @JoinColumn(name = "member_id")
     private Member member;
+
+    @ManyToOne
+    @JoinColumn(name = "mission_id")
+    private Mission mission;
 }
